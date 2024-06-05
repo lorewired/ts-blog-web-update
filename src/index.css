@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   font-size: 16px;
+   font-family: "Outfit", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   outline: none;
+}
+
+body {
+   overflow-x: hidden;
+}
+
+.chat-input-container::-webkit-scrollbar {
+   width: 8px; /* largura da barra de rolagem */
+ }
+ 
+ .chat-input-container::-webkit-scrollbar-track {
+   background-color: #f1f1f1; /* cor de fundo da barra de rolagem */
+ }
+ 
+ .chat-input-container::-webkit-scrollbar-thumb {
+   background-color: #888; /* cor do botão da barra de rolagem */
+   border-radius: 4px; /* borda arredondada */
+ }
+ 
+ .chat-input-container::-webkit-scrollbar-thumb:hover {
+   background: #555; /* cor do botão da barra de rolagem quando hover */
+ }
