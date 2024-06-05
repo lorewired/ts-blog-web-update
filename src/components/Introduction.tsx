@@ -33,7 +33,8 @@ const Me = () => {
          <img
             className='w-[187px] rounded-[360px]'
             src={icon} 
-            alt="icon" 
+            alt="icon"
+            title='pau no cu de quem ta lendo 😉'
          />
          <div className='flex flex-col gap-3 ml-2'>
             <h3 className='text-6xl font-[500]'>Lore 有線</h3>
