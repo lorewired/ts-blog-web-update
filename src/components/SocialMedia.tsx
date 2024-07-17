@@ -9,10 +9,10 @@ const SocialMedia = () => {
       <div className='w-full flex gap-10'>
 
         <Card
-          to='https://github.com/Nier704'
+          to='https://github.com/lorewired'
           image={github_icon}
           name='Github'
-          description='@Nier704'
+          description='@lorewired'
         />
 
         <Card 
